@@ -1,0 +1,28 @@
+h1 {
+    font-weight: bolder;
+    color: #ffffff;
+}
+h2 {
+    font-weight: bolder;
+}
+
+.card {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+body {
+    background-color: rgb(5, 1, 37);
+}
+
+@media screen and (max-width: 640px) {
+    .col-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .col-4 {
+        width: 50%;
+    }
+}
